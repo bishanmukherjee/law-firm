@@ -1,0 +1,94 @@
+.carousel {
+  background: #fafafa;
+}
+
+.carousel-cell {
+  width: 66%;
+  height: 400px;
+  margin-right: 10px;
+  background: #333;
+}
+
+.carousel-cell-image {
+  display: block;
+  max-height: 100%;
+  margin: 0 auto;
+  max-width: 100%;
+  width: 100%;
+  opacity: 0;
+  -webkit-transition: opacity 0.4s;
+  transition: opacity 0.4s;
+}
+
+/* fade in lazy loaded image */
+.carousel-cell-image.flickity-lazyloaded,
+.carousel-cell-image.flickity-lazyerror {
+  opacity: 1;
+}
+
+.announce {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 140px;
+  background-color: #1c658f;
+}
+
+.announce .left {
+  display: flex;
+  flex-direction: column;
+}
+
+.announce .left .topz {
+  font-size: 2.5em;
+  font-weight: 400;
+  color: #fff;
+}
+
+.announce .left .top {
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.pad {
+  padding: 20px 50px;
+  border-radius: 15px;
+  background-color: #fff;
+  color: #1c658f;
+  font-size: 1.8rem;
+}
+
+.resp-btn {
+  display: none;
+}
+
+@media only screen and (max-width: 415px) {
+  .flickity-viewport {
+    height: 265px !important;
+  }
+  .announce {
+    height: 500px;
+    padding: 0px 54px !important;
+    flex-direction: column;
+  }
+  .pad {
+    display: none;
+  }
+  .resp-btn {
+    display: block;
+  }
+  .pds {
+    padding: 8px 20px;
+    border-radius: 30px;
+    border: 2px solid #fff;
+    background-color: #1c658f;
+    color: #fff;
+  }
+  .pds a,
+  a:hover,
+  a:focus,
+  a:active {
+    text-decoration: none;
+    color: inherit;
+  }
+}

@@ -1,0 +1,65 @@
+.formz {
+  background-image: url("https://previews.123rf.com/images/simarts/simarts1210/simarts121000009/15531475-a-blurred-view-on-the-statue-of-liberty-replica-in-odaiba-tokyo-japan-in-the-background-is-tokyo-bay.jpg");
+  height: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.cbody {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 80px;
+  padding: 90px 80px;
+}
+
+.titleCase {
+  display: flex;
+  flex-direction: column;
+}
+
+.form_main {
+  width: 40%;
+  padding: 70px 0px;
+}
+
+.rowy {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rowt {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.widthx {
+  width: 100%;
+}
+
+.txt1 {
+  font-weight: 400;
+  font-size: 30px;
+  color: #fff;
+  font-weight: 400;
+}
+
+.txt2 {
+  font-weight: 600;
+  font-size: 50px;
+  color: #fff;
+  margin-top: 20px;
+}
+
+.btn {
+  margin-top: 10px !important;
+}
+
+@media only screen and (max-width: 415px) {
+  .form_main {
+    width: 100%;
+    padding: none;
+  }
+}

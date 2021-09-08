@@ -1,0 +1,6 @@
+.announcement {
+  padding: 10px;
+  height: 100px;
+  background-color: rgb(98, 113, 201);
+  display: flex;
+}
